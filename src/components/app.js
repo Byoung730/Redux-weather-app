@@ -12,7 +12,10 @@ export default class App extends Component {
     return (
       <div>
         <h2>Enter a city to get the weather outlook</h2>
-        <h6>Dotted red line denotes average</h6>
+        <h6>
+          Dotted red line denotes average...data points are every 3 hours over a
+          5-day period
+        </h6>
         <hr />
         <SearchBar onSearchTermChange={weatherSearch} />
         <WeatherList />
